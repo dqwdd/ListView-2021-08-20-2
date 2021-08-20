@@ -46,6 +46,7 @@ class StudentAdapter(
         ageTxt.text = "(${data.birthYear} 세)"
 
 //        2021 - data.birthYear + 1
+//        우린 년도로 받았으니 위에 식으로 해야 함
 
         return row
 
