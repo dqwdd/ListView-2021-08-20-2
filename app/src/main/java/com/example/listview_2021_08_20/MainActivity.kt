@@ -40,5 +40,15 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        studentListView.setOnItemLongClickListener { adapterView, view, position, l ->
+
+            val student = mStudentList[position]
+
+            Toast.makeText(this, ${student.name} "long click", Toast.LENGTH_SHORT).show()
+
+            return@setOnItemLongClickListener
+//            return@setOnItemLongClickListener 이거 넣어야 함 롱클릭이벤트처리함수는
+        }
+
     }
 }
