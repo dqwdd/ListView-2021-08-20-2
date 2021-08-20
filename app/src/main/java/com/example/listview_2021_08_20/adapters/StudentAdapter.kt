@@ -27,6 +27,10 @@ class StudentAdapter(
 
         val row = tempRow!!
 
+
+//        row가 결과로 (화면에) 나가기 전에 추가 가공을 거치고 나가게 하자 (지금은 바로 나감)
+
+
         return row
 
     }
