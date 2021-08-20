@@ -12,13 +12,14 @@
         android:padding="10dp">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/nameTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="학생 이름"
             android:textSize="17sp" />
 
         <TextView
+            android:id="@+id/ageTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:Layout_marginLeft="5dp"
@@ -30,6 +31,7 @@
             android:weigh="1" />
 
         <TextView
+            android:id="@+id/addressTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="경기도 고양시 등"
